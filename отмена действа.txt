@@ -1,0 +1,22 @@
+// проста отмена действа
+git checkout -- . || git checkout -- index.html
+
+
+// когда использовалы комманда add и не дальше :
+git reset index.html || .
+git checkout -- index.html || .
+
+
+{ должен написат в терминал VS Code
+// когда вы исолзовали commit > удаляет все измененя из файл :
+git reset --hard HEAD^1  // 1 один означает один commit назад
+
+
+//  когда вы исолзовали commit > не удаляет из файл :
+git reset --soft HEAD^1 
+
+}
+
+
+
+

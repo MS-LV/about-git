@@ -1,0 +1,14 @@
+[user]
+	email = jamoliddinqodirov18@gmail.com
+	name = MS-LV
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	s = status --short
+	l = log --oneline --graph --decorate --all
+	g = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%D%C(dim white) - %an%C(reset) %C(bold green) (%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
+	br = branch
+	co = checkout
