@@ -19,7 +19,7 @@ git checkout 178fda9
 ------------------------------------------------
 
 //отправит филиалы(branch) на сервер(github)
-git push --set-upstream origin developer
+git push --set-upstream origin developer	//branch{developer}
 
 -------------------------------------------
 

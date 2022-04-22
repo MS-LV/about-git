@@ -4,7 +4,7 @@
 #### Header number 4
 ##### Header number 5
 ###### Header number 6
-<a id="anchor></a>
+<a id="anchor"> sdfsdfsdf <<==== your link find this</a>
 + Hello
 * hello 
     * Hi
@@ -67,7 +67,7 @@ ___
 //
 
 color | number | boolean
-:-----|:---:(--|-------:
+:-----|:---:|-----:|
 red | blue | orange|
 red | blue | orange|
 red | blue | orange|
@@ -75,5 +75,23 @@ red | blue | orange|
 //
 термин 
 : radius
-[up](#anchor)
+[up](#anchor);
+<a href="#anchor">vverx</a>
+| Tables        | Are           | Cool  |
+|:-------------:|:-------------:|:-----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+:/ :) :( ---| dsf | fd
+
+
 
